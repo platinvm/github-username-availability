@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "strict": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noEmit": true,
+        "module": "es2022",
+        "target": "es2022",
+        "lib": [
+            "es2022",
+            "dom",
+        ],
+    },
+    "include": [
+        "static/**/*.js",
+        "types/**/*.d.ts",
+    ],
+}
