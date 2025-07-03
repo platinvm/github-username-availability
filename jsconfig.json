@@ -17,7 +17,7 @@
         ],
     },
     "include": [
-        "static/**/*.js",
+        "docs/**/*.js",
         "types/**/*.d.ts",
     ],
 }

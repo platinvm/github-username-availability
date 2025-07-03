@@ -58,9 +58,5 @@ window.check.onclick = async () => {
             row.insertCell(0).innerText = account.login
             row.insertCell(1).innerText = account.kind ?? "no"
         }
-    }).catch(err => {
-        if (err === InvalidTokenError)
     })
-
-
 }
